@@ -537,7 +537,6 @@ int agg_main(int argc, char* argv[])
     }
 
 #if defined(_WIN32) || defined(WIN32)
-    fprintf(stderr, "NTDDI_VERSION:%d NTDDI_WINBLUE:%d \n", NTDDI_VERSION, NTDDI_WINBLUE);
     SetProcessDpiAwareness(PROCESS_SYSTEM_DPI_AWARE);
 #endif
 
